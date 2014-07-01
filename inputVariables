@@ -1,0 +1,54 @@
+### DESCRIPTION OF INPUT VARIABLES
+
+ Description:
+ Type:
+ Default value:
+
+### a
+### b
+### c
+case 
+
+  Description:  Name of the particular run-case  
+  Type: character
+  Default value: none
+
+### d
+### e
+### f
+### g
+### h
+### i
+
+inputFunction 
+  
+ Description: Initial pulse shape
+ Type: character 
+ Default value: Gaussian
+
+ Initial pulse-shape functions:
+
+ stepFunction  Step Function
+ gaussianFunction  Gaussian Function 
+
+Chirp
+  Description: Chirp
+  Type: Real
+  Default value: 0
+
+### j
+### k
+### l
+### m
+### o
+### p
+### q
+### r
+### s
+### t
+### u
+### v
+### w
+### x
+### y
+### z

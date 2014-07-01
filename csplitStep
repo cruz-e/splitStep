@@ -1,0 +1,43 @@
+#!/bin/bash
+#
+date
+echo ""
+echo "Running"  $0
+echo ""
+echo ""
+
+FC=gfortran
+prog_file="splitStep.f90"
+modFile1=ConstantsMod.f90
+modFile2=inputParametersMod.f90
+modFile3=inputFileMod.f90
+modFile4=DebugMod.f90
+modFile5=inputFunctions.f90
+modFile6=subroutines.f90
+objs="ConstantsMod.o sdft.o inputParametersMod.o inputFileMod.o DebugMod.o inputFunctions.o subroutines.o"
+exe_file=rsplitStep
+
+
+echo compiling $prog_file
+echo ""
+
+FLAGS='-O' 
+
+rm -f *.o *.mod
+$FC -c sdft.f
+$FC  -c ./$modFile1
+$FC  -c ./$modFile2
+$FC  -c ./$modFile4
+$FC  -c ./$modFile3
+$FC  -c ./$modFile5
+$FC  -c ./$modFile6
+$FC -o$exe_file $FLAGS $prog_file $objs
+
+#rm -f *.o *.mod
+
+echo "" 
+echo "executable file: $exe_file"
+echo ""
+
+#ifort -orsplitStep  sdft.f  splitStep.f 
+
