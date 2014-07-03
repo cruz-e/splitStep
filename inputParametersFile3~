@@ -1,0 +1,23 @@
+case standard-fiber
+inputFunction Gaussian
+#inputFunction stepFunction
+#inputFunction SuperGaussian
+#inputFunction HiperSecFunction
+nSteps 5000			##  0.707107->5000
+nzSteps  50
+T0  1.d0
+tmin -50
+tmax 50
+zmin  0.d0
+zmax  10.d0
+freq 1.d0
+divsize 10.d0
+Chirp 0.d0
+m 1
+betaotwo 1.d0
+betaothree 0.d0
+P0 1.d0
+gama 1.d0
+alpha 0.d0
+
+

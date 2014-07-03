@@ -1,5 +1,5 @@
-GFORTRAN module version '10' created from ./inputFileMod.f90
-MD5:5bb753203fdf3b7ec172c81c10b88cfc -- If you edit this, you'll get what you deserve.
+GFORTRAN module version '10' created from inputFileMod.f90
+MD5:e32a5bb88170d72511ae3ba7510e1950 -- If you edit this, you'll get what you deserve.
 
 (() () () () () () () () () () () () () () () () () () () () () () ()
 () () () ())
@@ -123,70 +123,72 @@ UNKNOWN IMPLICIT-SAVE 0 0) (LOGICAL 4 0 0 0 LOGICAL ()) 0 0 () () 0 () ()
 UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (CHARACTER 1 0 0 0 CHARACTER ((
 CONSTANT (INTEGER 4 0 0 0 INTEGER ()) 0 '80'))) 0 0 () () 0 () () () 0 0)
 41 'parseparamfile' 'inputfilemod' '' 1 ((PROCEDURE UNKNOWN-INTENT
-MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0
-0 () () 0 () () () 0 0)
-42 'pi' 'constantsmod' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE ALWAYS_EXPLICIT) (UNKNOWN 0 0 0
+0 UNKNOWN ()) 42 0 (43) () 0 () () () 0 0)
+44 'pi' 'constantsmod' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
 UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () (CONSTANT (
 REAL 8 0 0 0 REAL ()) 0 '0.3243f6a8885a30@1') () 0 () () () 0 0)
-43 'reduce_white_space' 'inputfilemod' '' 1 ((PROCEDURE UNKNOWN-INTENT
-MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 0 UNKNOWN ()) 44
-0 (45 46) () 0 () () () 0 0)
-47 'remove_comments' 'inputfilemod' '' 1 ((PROCEDURE UNKNOWN-INTENT
-MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 0 UNKNOWN ()) 48
-0 (49 50) () 0 () () () 0 0)
-51 'sp' 'constantsmod' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+45 'reduce_white_space' 'inputfilemod' '' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 0 UNKNOWN ()) 46
+0 (47 48) () 0 () () () 0 0)
+49 'remove_comments' 'inputfilemod' '' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 0 UNKNOWN ()) 50
+0 (51 52) () 0 () () () 0 0)
+53 'sp' 'constantsmod' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
 UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (
 CONSTANT (INTEGER 4 0 0 0 INTEGER ()) 0 '4') () 0 () () () 0 0)
-52 'spc' 'constantsmod' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+54 'spc' 'constantsmod' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
 UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (
 CONSTANT (INTEGER 4 0 0 0 INTEGER ()) 0 '4') () 0 () () () 0 0)
-53 't0' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+55 't0' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
 UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () () 0 () () () 0
 0)
-54 't0_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+56 't0_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
 UNKNOWN IMPLICIT-SAVE 0 0) (LOGICAL 4 0 0 0 LOGICAL ()) 0 0 () () 0 () ()
 () 0 0)
-55 'tmax' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT
+57 'tmax' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT
 UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () ()
 0 () () () 0 0)
-56 'tmax_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+58 'tmax_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
 UNKNOWN IMPLICIT-SAVE 0 0) (LOGICAL 4 0 0 0 LOGICAL ()) 0 0 () () 0 () ()
 () 0 0)
-57 'tmin' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT
+59 'tmin' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT
 UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () ()
 0 () () () 0 0)
-58 'tmin_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+60 'tmin_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
 UNKNOWN IMPLICIT-SAVE 0 0) (LOGICAL 4 0 0 0 LOGICAL ()) 0 0 () () 0 () ()
 () 0 0)
-59 'tol' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT
+61 'tol' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT
 UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () ()
 0 () () () 0 0)
-60 'tol_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+62 'tol_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
 UNKNOWN IMPLICIT-SAVE 0 0) (LOGICAL 4 0 0 0 LOGICAL ()) 0 0 () () 0 () ()
 () 0 0)
-61 'zmax' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT
+63 'zmax' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT
 UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () ()
 0 () () () 0 0)
-62 'zmax_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+64 'zmax_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
 UNKNOWN IMPLICIT-SAVE 0 0) (LOGICAL 4 0 0 0 LOGICAL ()) 0 0 () () 0 () ()
 () 0 0)
-63 'zmin' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT
+65 'zmin' 'inputparametersmod' '' 1 ((VARIABLE UNKNOWN-INTENT
 UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () ()
 0 () () () 0 0)
-64 'zmin_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+66 'zmin_set' 'inputfilemod' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
 UNKNOWN IMPLICIT-SAVE 0 0) (LOGICAL 4 0 0 0 LOGICAL ()) 0 0 () () 0 () ()
 () 0 0)
 12 'instring' '' '' 11 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
 DUMMY) (CHARACTER 1 0 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
 13 'linenumber' '' '' 11 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
 DUMMY) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
-45 'instring' '' '' 44 ((VARIABLE INOUT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+43 'rank' '' '' 42 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+OPTIONAL DUMMY) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+47 'instring' '' '' 46 ((VARIABLE INOUT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
 DUMMY) (CHARACTER 1 0 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
-46 'instringlength' '' '' 44 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+48 'instringlength' '' '' 46 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
 0 0 DUMMY) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
-49 'instring' '' '' 48 ((VARIABLE INOUT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+51 'instring' '' '' 50 ((VARIABLE INOUT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
 DUMMY) (CHARACTER 1 0 0 0 CHARACTER (())) 0 0 () () 0 () () () 0 0)
-50 'commentsignal' '' '' 48 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0
+52 'commentsignal' '' '' 50 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0
 0 DUMMY) (CHARACTER 1 0 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0 0
 INTEGER ()) 0 '1'))) 0 0 () () 0 () () () 0 0)
 )
@@ -199,7 +201,7 @@ INTEGER ()) 0 '1'))) 0 0 () () 0 () () () 0 0)
 'inputfilemod' 0 27 'inputfunction' 0 28 'inputfunction_set' 0 29
 'inputparametersmod' 0 30 'kind' 0 31 'm' 0 32 'm_set' 0 33 'nsteps' 0
 34 'nsteps_set' 0 35 'nzsteps' 0 36 'nzsteps_set' 0 37 'p0' 0 38 'p0_set'
-0 39 'paramfile' 0 40 'parseparamfile' 0 41 'pi' 0 42 'reduce_white_space'
-0 43 'remove_comments' 0 47 'sp' 0 51 'spc' 0 52 't0' 0 53 't0_set' 0 54
-'tmax' 0 55 'tmax_set' 0 56 'tmin' 0 57 'tmin_set' 0 58 'tol' 0 59
-'tol_set' 0 60 'zmax' 0 61 'zmax_set' 0 62 'zmin' 0 63 'zmin_set' 0 64)
+0 39 'paramfile' 0 40 'parseparamfile' 0 41 'pi' 0 44 'reduce_white_space'
+0 45 'remove_comments' 0 49 'sp' 0 53 'spc' 0 54 't0' 0 55 't0_set' 0 56
+'tmax' 0 57 'tmax_set' 0 58 'tmin' 0 59 'tmin_set' 0 60 'tol' 0 61
+'tol_set' 0 62 'zmax' 0 63 'zmax_set' 0 64 'zmin' 0 65 'zmin_set' 0 66)

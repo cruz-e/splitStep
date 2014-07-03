@@ -30,8 +30,9 @@ CONTAINS
 
 
 ! #########################  
-  SUBROUTINE parseParamFile
+  SUBROUTINE parseParamFile(rank)
     IMPLICIT NONE
+    INTEGER, INTENT(IN), OPTIONAL :: rank
     CHARACTER(LEN=255) thisLine
     CHARACTER(LEN=255) string1, string2, tmpString
     CHARACTER(LEN=1), PARAMETER :: commentSignal = '#'
@@ -39,7 +40,14 @@ CONTAINS
     INTEGER :: iTmp
     
     IF (debug) WRITE(*,*) "Beginning to parse parameter file."
-    paramFile="inputParametersFile"
+
+    IF (present(rank)) THEN
+      write (paramFile, "(A19,I1)") "inputParametersFile", rank
+    ELSE
+      paramFile="inputParametersFile"
+    END IF
+
+
     OPEN(UNIT=1, FILE=paramFile, FORM='FORMATTED', STATUS='OLD', IOSTAT=ios)	 											
     IF (ios.NE.0) THEN								
        WRITE(6,*) "Error opening file: ", TRIM(paramFile)
