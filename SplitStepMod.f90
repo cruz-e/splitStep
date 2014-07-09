@@ -113,7 +113,7 @@ allocate(ttden(0:nSteps-1))
   call sdft(-1,nSteps,dt,u0w,u0tp)
   do k=0,nSteps-1 
      t(k)= tmin + k*dt
-     write(6,'(3f16.6)')t(k),u0tp(1,k),u0tp(2,k) 
+!     write(6,'(3f16.6)')t(k),u0tp(1,k),u0tp(2,k) 
   end do
 !###
 !### SPLIT-STEP METHOD
@@ -123,8 +123,8 @@ allocate(ttden(0:nSteps-1))
 !    with zeta=z/L_D  ; To=1
 !     zeta-> z
   dz=.1
-  write(6,*)'nzSteps ',nzSteps
-  write(6,*)'iz, z1, z2'
+!write(6,*)'nzSteps ',nzSteps
+!write(6,*)'iz, z1, z2'
 !############################################ Calculus of U(0,T) is neccesary to get self-phase modulation
    allocate(uz0w(2,0:nSteps-1),uz0t(2,0:nSteps-1))
            do n=0,nSteps-1 
@@ -163,7 +163,7 @@ allocate(ttden(0:nSteps-1))
 !	     argnl=argnl+uzwnl(k)*dz
 !         end do
 !###########################################
-      write(6,*)iz,z1,z2		
+!      write(6,*)iz,z1,z2		
 	   do n=0,nSteps-1 
               w=2.d0*pi*(deltaf(n))
 !             if(n<=(nSteps/2)) w=2.d0*pi*(deltaf(n))
@@ -250,7 +250,7 @@ allocate(ttden(0:nSteps-1))
 !###################################################################
 	do k=0,nSteps-1
 !	        write(12,'(7f16.6)')z,zold,t(k),zc(k),ttau(k),nChirp(k),tt		!,errpot(k)
-	        write(12,'(8f16.6)')z,t(k),zold3,pot(k),num1,num2,den,sig!,ttau(k)!,zc(k),ttau(k),nChirp(k)		!,errpot(k)
+!	        write(12,'(8f16.6)')z,t(k),zold3,pot(k),num1,num2,den,sig!,ttau(k)!,zc(k),ttau(k),nChirp(k)		!,errpot(k)
 !	        write(12,'(9f16.6)')z,t(k),v1uzw(1,k),v1uzw(2,k),uzw(1,k),uzw(2,k),uzt(1,k),uzt(2,k),pot(k)
 	end do
 
